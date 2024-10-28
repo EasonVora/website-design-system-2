@@ -1,0 +1,70 @@
+
+#pagetitle {
+    border-bottom: solid 3px;
+}
+#text-main {
+    background-color: #FEFAE0;
+    padding: 10px;
+}
+.textstyle-group article {
+    border-bottom: solid 1px;
+}
+#h1-style .textstyle-example {
+    font-size: 2em; 
+    font-weight: 700px; /* bold */
+    line-height: 1.5;
+}
+#h2-style .textstyle-example {
+    font-size: 1.5em;
+    font-weight: 700px; /* bold */
+    line-height: 1.5;
+}
+#h3-style .textstyle-example {
+    font-size: 1.17em;
+    font-weight: 700px; /* bold */
+    line-height: 1.5;
+}
+#p-style .textstyle-example {
+    font-size: 1em; /* normal */
+    font-weight: 400px; /* normal */
+    line-height: 1.5; /* or 1.6 */
+}
+
+.underline { /* link example warnings */
+    font-size: .75em;
+    font-weight: 700;
+}
+#hyperlink-example {
+    font-size: 1em; /* normal */
+    font-weight: 400px; /* normal */
+    line-height: 1.5; /* or 1.6 */
+    text-decoration: underline;
+    color: blue;
+}
+#hyperlink-example:hover {
+    color: aqua;
+
+}
+#hyperlink-example:active {
+    color: blueviolet;
+}
+
+#button-example {
+    font-size: 1em; /* normal */
+    font-weight: 400px; /* normal */
+    line-height: 1.5; /* or 1.6 */
+    text-decoration: none;
+    background-color: rgb(90, 155, 155);
+    color: white;
+    border-radius: 5px;
+    padding: 10px; 
+}
+#button-example:hover {
+    background-color: aqua;
+    color: black;
+}
+#button-example:active {
+    background-color: rgb(0, 92, 92);
+    color: white;
+}
+

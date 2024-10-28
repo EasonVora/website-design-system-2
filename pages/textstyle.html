@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./textstyle.html">
+    <link rel="stylesheet" href="./pageresources/textpage.css">
     <link rel="stylesheet" href="../resources/styles.css">
     <title>Web Design System-Text Style</title>
 
@@ -49,30 +49,63 @@
             <p>intro</p>
         </div>
     </header>
-    <main>
+    <main id="text-main">
         <h2 id="pagetitle">Website Text Styles</h2>
-        <section class="textstyles-group">
-            <article class="h1-style">
+        <section class="textstyle-group">
+            <article id="h1-style">
                 <h1 class="textstyle-example">Heading 1</h1>
-                <p><!-- Information about, what it's used for --></p>
+                <p>An <strong>"h1"</strong> element is used to define the main heading of a webpage, indicating its primary topic or purpose. It plays a crucial role in search engine optimization (SEO) and accessibility, as it helps search engines and screen readers understand the content's hierarchy and importance.</p>
+                <ul>
+                    <li>font-size: 2em;</li>
+                    <li>font-weight: 700px; (Bold)</li>
+                    <li>line-height: 1.5;</li>
+                </ul>
             </article>
-            <article class="h2-style">
+
+            <article id="h2-style">
                 <h2 class="textstyle-example">Heading 2</h2>
-                <p><!-- Information about, what it's used for --></p>
+                <p>An <strong>"h2"</strong> element is used to define subheadings that provide structure and organization to the content under the main heading, typically indicating a secondary level of importance. It helps improve readability and navigation, allowing both users and search engines to better understand the relationships between different sections of a webpage.</p>
+                <ul>
+                    <li>font-size: 1.5em;</li>
+                    <li>font-weight: 700px; (Bold)</li>
+                    <li>line-height: 1.5;</li>
+                </ul>
             </article>
-            <article class="h3-style">
+
+            <article id="h3-style">
                 <h3 class="textstyle-example">Heading 3</h3>
-                <p><!-- Information about, what it's used for --></p>
+                <p>An <strong>"h3"</strong> element is used to create sub-subheadings, further organizing content within sections defined by <strong>"h2"</strong> headings. It indicates a tertiary level of importance, aiding in the hierarchy of information and improving both readability and search engine optimization.</p>
+                <ul>
+                    <li>font-size: 1.17em;</li>
+                    <li>font-weight: 700px; (Bold)</li>
+                    <li>line-height: 1.5;</li>
+                </ul>
             </article>
-            <article class="p-style">
-                <p id=p-example class="textstyle-example">Paragraph</p>
-                <p><!-- Information about, what it's used for --></p>
+
+            <article id="p-style">
+                <p class="textstyle-example">Paragraph</p>
+                <p>A "p" element is used to define paragraphs of text, providing a way to structure and present written content on a webpage. It enhances readability by separating blocks of text, allowing for clearer communication of ideas and information.</p>
+                <ul>
+                    <li>font-size: 1em;</li>
+                    <li>font-weight: 400px; (Normal)</li>
+                    <li>line-height: 1.5;</li>
+                </ul>
             </article>
+
             <article class="hyperlink-style">
-                <p id="hyperlink-example" class="textstyle-example"><a href="#"></a>hyperlink</p>
-                <p id="hyperlink-example" class="textstyle-example"><a href="#"></a>hyperlink</p>
-                <p><!-- Information about, what it's used for --></p>
-                <p><!-- Other ways links can be expressed --></p>
+                <p class="textstyle-example"><a id="hyperlink-example" href="#" >hyperlink</a></p>
+                <p class="underline">(This link will refresh the page!)</p>
+                <p>A hyperlink element, represented by the "a" tag, is used to create links that connect users to other web pages, resources, or sections within the same page. It enhances navigation and user experience by allowing easy access to related content or external sites.</p>
+                <ul>
+                    <li>text-decoration: underline;</li>
+                    <li>color: blue;</li>
+                </ul>
+            </article>  
+
+            <article class="button-style">
+                <br>
+                <button id="button-example">Button</button>
+                <p>It is encouraged to design your buttons rather than use the default button styling. Although it is acceptable, it looks bland and outdated.</p>
             </article>
         </section>
     </main>
