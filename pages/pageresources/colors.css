@@ -1,33 +1,45 @@
 body {
     padding: 10px auto;
 }
+
+.color {
+width: 100%;
+margin: 0px auto;
+padding: 0;
+}
+
 #colorschemes {
     border: solid 5px;
     background-color: white;
-}
-
-table {
+    width: 100%;
     overflow: scroll;
-    margin: 20px 20px;
-    padding: 20px;
+}
+table {
+    margin: 5px;
     table-layout: auto;
 }
 
-
-thead th {
-    justify-content: center;
-}
-tr {
+h2 {
     text-align: center;
+    margin-top: 35px;
 }
 tbody td {
-    margin: auto 20px;
-    padding: 20px;
+    margin: auto auto;
 }
 .colorscheme-name {
     font-weight: bold;
     text-decoration: underline;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
 }
+.color {
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+
 
 /* FORESTRY */
 #DarkMossGreen {
