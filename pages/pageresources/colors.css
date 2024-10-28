@@ -1,0 +1,404 @@
+body {
+    padding: 10px auto;
+}
+#colorschemes {
+    border: solid 5px;
+    background-color: white;
+}
+
+table {
+    overflow: scroll;
+    margin: 20px 20px;
+    padding: 20px;
+    table-layout: auto;
+}
+
+
+thead th {
+    justify-content: center;
+}
+tr {
+    text-align: center;
+}
+tbody td {
+    margin: auto 20px;
+    padding: 20px;
+}
+.colorscheme-name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* FORESTRY */
+#DarkMossGreen {
+    background-color: #606c38;
+    color: white;
+}
+#MuddyGreen {
+    background-color: #283618;
+    color: white;
+}
+.Cornsilk {
+    background-color: #FEFAE0;
+    color: black;
+}
+#EarthYellow {
+    background-color: #DDA15E;
+    color: black;
+}
+#Sepia {
+    background-color: #663A14;
+    color: white;
+}
+
+/* FOGGY FOREST */
+.Timberwolf {
+    background-color: #DDD9D0;
+    color: black;
+}
+#KhakiGrey {
+    background-color: #A39C8F;
+    color: black;
+}
+#Sage {
+    background-color: #A3B18A;
+    color: black;
+}
+#HunterGreen {
+    background-color: #3A5A40;
+    color: white;
+}
+#BrunswickGreen {
+    background-color: #344E41;
+    color: white;
+}
+
+/* BEACH SCENE */
+#UranianBlue {
+    background-color: #B5E2FA;
+    color: black;
+}
+#CelestialBlue {
+    background-color: #599BCD;
+    color: white;
+}
+#DutchWhite {
+    background-color: #F1E6BB;
+    color: black;
+}
+#Lion {
+    background-color: #AD925C;
+    color: white;
+}
+#Coral {
+    background-color: #FF7F50;
+    color: white;
+}
+
+/* SUNFLOWER */
+#Sunset {
+    background-color: #FAD6A5;
+    color: black;
+}
+.Sunglow {
+    background-color: #FC3;
+    color: black;
+}
+.OrangePeel {
+    background-color: #FFA21F;
+    color: black;
+}
+.SealBrown {
+    background-color: #621B00;
+    color: white;
+}
+#BlackBean {
+    background-color: #2f1000;
+    color: white;
+}
+
+/* SUNNY DAY */
+#Linen {
+    background-color: #FEF6EC;
+    color: black;
+}
+#Celeste {
+    background-color: #ABFBFF;
+    color: black;
+}
+.NonPhotoBlue {
+    background-color: #A7E6FF;
+    color: black;
+}
+/* .Sunglow {
+    background-color: #FC3;
+    color: black;
+}
+.OrangePeel {
+    background-color: #FFA21F;
+    color: black;
+} */
+
+/* CHEF RAMSEY */
+#WhiteSmoke {
+    background-color: #F5F5F5;
+    color: black;
+}
+.Silver {
+    background-color: #C2C2C2;
+    color: black;
+}
+#DavysGrey {
+    background-color: #5C5C5C;
+    color: white;
+}
+.Night {
+    background-color: #0A0A0A;
+    color: white;
+}
+#Red {
+    background-color: #F00;
+    color: white;
+}
+
+/* YES-CHEF */
+.White {
+    background-color: #FFF;
+    color: black;
+}
+/* .Silver {
+    background-color: #C2C2C2;
+    color: black;
+} */
+.BattleshipGrey {
+    background-color: #999;
+    color: white;
+}
+/* .Night {
+    background-color: #0A0A0A;
+    color: white;
+} */
+#SGBUSgreen {
+    background-color: #00E022;
+    color: black;
+}
+
+/* FOOD BLOG */
+#Cream {
+    background-color: #FFFFD6;
+    color: black;
+}
+#Mindaro {
+    background-color: #FFFD99;
+    color: black;
+}
+#LawnGreen {
+    background-color: #78FF0A;
+    color: black;
+}
+#SelectiveYellow {
+    background-color: #FFB81F;
+    color: black;
+}
+#Vermillion {
+    background-color: #F33;
+    color: white;
+}
+
+/* FORMAL RESTAURANT */
+/* .Cornsilk {
+    background-color: ##FEFAE0;
+    color: black;
+} */
+#Jasmine {
+    background-color: #FFE299;
+    color: black;
+}
+.PakistanGreen {
+    background-color: #10430A;
+    color: white;
+}
+#CafeNoir {
+    background-color: #51361B;
+    color: white;
+}
+#Maroon {
+    background-color: #850000;
+    color: white;
+}
+
+/* OLD SCHOOL */
+#ChampagnePink {
+    background-color: #FAE9DF;
+    color: black;
+}
+#RosyBrown {
+    background-color: #C59381;
+    color: black;
+}
+#RoseEbony {
+    background-color: #7C5050;
+    color: white;
+}
+#Sienna {
+    background-color: #7A2D00;
+    color: white;
+}
+.DrabDarkBrown {
+    background-color: #47441E;
+    color: white;
+}
+
+/* LIBRARY */
+#AntiqueWhite {
+    background-color: #FFECD7;
+    color: black;
+}
+#DesertSand {
+    background-color: #F0C9B3;
+    color: black;
+}
+#Garnet {
+    background-color: #6A3939;
+    color: white;
+}
+/* .SealBrown {
+    background-color: #621B00;
+    color: white;
+} */
+/* .DrabDarkBrown {
+    background-color: #47441E;
+    color: white;
+} */
+
+/* PTECH */
+/* .PakistanGreen {
+    background-color: #10430A;
+    color: white;
+} */
+#IndiaGreen {
+    background-color: #0B8707;
+    color: white;
+}
+#Jonquil {
+    background-color: #FFCF01;
+    color: black;
+}
+.Alabaster {
+    background-color: #F4EFE5;
+    color: black;
+}
+/* .White {
+    background-color: white;
+    color: black;
+} */
+
+/* BLUE TECH */
+#Azure {
+    background-color: #EDFAFD;
+    color: black;
+}
+/* .NonPhotoBlue {
+    background-color: #A7E6FF;
+    color: black;
+} */
+#VividSkyBlue {
+    background-color: #33DDFF;
+    color: black;
+}
+.HonoluluBlue {
+    background-color: #0077B6;
+    color: white;
+}
+.FederalBlue {
+    background-color: #03045E;
+    color: white;
+}
+
+/* INDUSTRY BLUE-STEEL */
+#LightCyan {
+    background-color: #DAF5FB;
+    color: black;
+}
+/* .Timberwolf {
+    background-color: #DDD9D0;
+    color: black;
+}
+.BattleshipGrey {
+    background-color: #999;
+    color: black;
+}
+.HonoluluBlue {
+    background-color: #0077B6;
+    color: white;
+}
+.FederalBlue {
+    background-color: #03045E;
+    color: white;
+} */
+
+/* OLD GLORY */
+#BarnRed {
+    background-color: #780000;
+    color: white;
+}
+#FireBrick {
+    background-color: #C1121F;
+    color: white;
+}
+#PapayaWhip {
+    background-color: #FDF1D8;
+    color: black;
+}
+#PrussianBlue {
+    background-color: #003049;
+    color: white;
+}
+#AirSuperiority {
+    background-color: #6399BB;
+    color: white;
+}
+
+/* FORMER GLORY */
+#Cordovan {
+    background-color: #913737;
+    color: white;
+}
+#Redwood {
+    background-color: #B35A60;
+    color: white;
+}
+#Alabaster {
+    background-color: #F4EFE5;
+    color: black;
+}
+#PaynesGrey {
+    background-color: #2D5A73;
+    color: white;
+}
+#CadetGrey {
+    background-color: #97ABB7;
+    color: black;
+}
+
+/* EASTER SUNDAY */
+#LavenderBlush {
+    background-color: #FFEBEC;
+    color: black;
+}
+#Lilac {
+    background-color: #BFAFD5;
+    color: black;
+}
+#LightSkyBlue {
+    background-color: #93CDF1;
+    color: black;
+}
+#TeaGreen {
+    background-color: #D5EEAA;
+    color: black;
+}
+#Amber {
+    background-color: #FFBF00;
+    color: black;
+}

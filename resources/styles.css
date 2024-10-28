@@ -1,0 +1,133 @@
+
+/* bothmenus */
+nav ul li {
+    list-style: none; 
+    margin-left: auto;
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+/* top menu */
+.topnav {
+    background-color: #DDA15E;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.homenav {
+    display: inline-block;
+    padding: 10px; 
+    text-transform: uppercase;
+}
+.homenav a {
+    color: #283618;
+}
+.homenav a:hover {
+    font-weight: bolder;
+    color: #606C38;
+}
+/* side menu */
+.pagenav {
+    position: fixed;
+    left: -20px;
+    top: 70px;
+    margin-left: 20px;
+    border: solid 3px #283618;
+    background-color: #606C38;
+}
+.sidemenu {
+    padding: 15px
+}
+.sidenavtitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FEFAE0;
+}
+.sidenav {
+    background-color: #FEFAE0;
+    padding: 5px
+
+}
+.sidenav a {
+    color: #283618;
+}
+.sidenav a:hover {
+    color:#606C38;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.directory {
+    margin-bottom: 40px;
+}
+
+
+.pagetitle {
+    margin: 90px 20px 20px 160px;
+    color: #FEFAE0;
+}
+
+body {
+    background-color: #663A14;
+}
+main {
+    margin-left: 120px;
+    border: solid 2px #283618;
+}
+
+.maindesign-summaries {
+    background-color: #FEFAE0;
+    padding: 20px;
+}
+.altdesign-summaries {
+    background-color: #DDA15E;
+    padding: 10px;
+}
+.summary {
+    color: #663A14;
+    margin: 20px;
+}
+.grouptitles-top {
+    text-align: center;
+    margin: 0 auto;
+}
+.grouptitles {
+    text-align: center;
+    margin: 80px auto 0;
+    padding: 10px auto 0;
+}
+.summaryheadings {
+    border-bottom: solid 3px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 25px;
+}
+.linebottom { /* Used to help show users the end and start of groups in the article sections */
+    border-bottom: dotted #283618;
+}
+.summary p {
+    color:#283618;
+}
+.summary a {
+    color: #606C38;
+}
+.summary a:hover {
+    color: #283618;
+    font-weight: bold;
+}
+
+
+
+footer {
+    color: #FEFAE0;
+    background-color: #283618;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
