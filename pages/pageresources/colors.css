@@ -3,9 +3,9 @@ body {
 }
 
 .color {
-width: 100%;
-margin: 0px auto;
-padding: 0;
+    width: 20%;
+    margin: 0px auto;
+    padding: 0;
 }
 
 #colorschemes {
@@ -31,7 +31,9 @@ tbody td {
     text-decoration: underline;
     text-align: left;
     margin-left: 0;
+    margin-right: 0;
     padding-left: 0;
+    padding-right: 0;
 }
 .color {
     padding: 20px;
