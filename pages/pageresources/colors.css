@@ -307,6 +307,28 @@ tbody td {
     color: black;
 } */
 
+/* TEXTBOOK */
+#OxfordBlue {
+    background-color: #001e4b;
+    color: white;
+}
+.PapayaWhip {
+    background-color: #fdf1d8;
+    color: black;
+}
+#AtomicTangerine {
+    background-color: #e9967a;
+    color: black;
+}
+#Maize {
+    background-color: #fff06c;
+    color: black;
+}
+#Olivine {
+    background-color: #8fbc8f;
+    color: black;
+}
+
 /* BLUE TECH */
 #Azure {
     background-color: #EDFAFD;
